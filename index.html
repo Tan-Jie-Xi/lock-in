@@ -1,0 +1,60 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Stay Focused</title>
+  <style>
+    body {
+      background-color: #111;
+      color: #eee;
+      font-family: "Helvetica Neue", sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3em;
+      color: #ff6b6b;
+    }
+
+    p {
+      font-size: 1.5em;
+      max-width: 600px;
+      margin: 1em;
+    }
+
+    .quote {
+      font-style: italic;
+      color: #aaa;
+    }
+
+    .button {
+      margin-top: 2em;
+      padding: 0.75em 2em;
+      font-size: 1em;
+      background-color: #ff6b6b;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #ff3b3b;
+    }
+  </style>
+</head>
+<body>
+  <h1>Stop. Refocus.</h1>
+  <p>You said you wanted to stay off distractions. What brought you here?</p>
+  <p class="quote">“The cost of procrastination is the life you could’ve lived.”</p>
+  <button class="button" onclick="window.close()">Close Tab</button>
+</body>
+</html>
